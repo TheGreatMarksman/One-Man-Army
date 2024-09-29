@@ -803,6 +803,6 @@ function randomNumber(num1, num2){
     return Math.floor(Math.random() * (num2 - num1 + 1) ) + num1;
 }
 
-alert("Use W and D to move up and down. Use D and F to attack (F to attack the blue robots). Use A to defend.");
+alert("Use W and S to move up and down. Use D and F to attack (F to attack the blue robots). Use A to defend.");
 setUp();
 //runGame(0);
